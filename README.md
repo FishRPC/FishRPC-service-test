@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NettyRPC Project
 high performance java rpc server base on netty framework,using kryo,hessian,protostuff support rpc message serialization.
 
@@ -85,3 +86,15 @@ http://www.cnblogs.com/jietang/p/5983038.html
 
 ## License
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) Copyright (C) 2016 Newland Group Holding Limited
+=======
+# FishRPC-service-test</br>
+FishRPC服务Demo</br>
+通过在实现类上注解@PRC进行RPC服务注册</br>
+例如对AddImpl注册一个RPC服务</br>
+@PRC</br>
+public class AddImpl implements IAdd{</br>
+&nbsp;&nbsp;public int add(int a,int b){</br>
+&nbsp;&nbsp;    return a+b;</br>
+&nbsp;  }</br>
+}</br>
+>>>>>>> 69ba2beeccf1214f7d9b4f5ff4ee2ad51a2a704a

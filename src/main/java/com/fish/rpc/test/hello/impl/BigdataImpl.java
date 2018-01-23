@@ -20,4 +20,8 @@ public class BigdataImpl implements IBigdata{
 		}
 		throw new Exception("test Exception");  
 	}
+	
+	public static void main(String[] args){
+		System.out.println(new Byte("121"));
+	}
 }

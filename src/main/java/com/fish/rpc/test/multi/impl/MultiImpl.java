@@ -1,6 +1,5 @@
 package com.fish.rpc.test.multi.impl;
 
-import java.lang.reflect.Method;
 import java.util.Random;
 
 import com.fish.rpc.RPC;
@@ -11,11 +10,11 @@ public class MultiImpl implements IMulti{
 	@Override
 	public int multi(int a, int b) {
 		int sleep = new Random().nextInt(50);
-		try {
+		/*try {
 			Thread.sleep(sleep);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
-		}
+		}*/
 		return a*b;
 	}
 	

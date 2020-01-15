@@ -11,6 +11,11 @@ public class SayHelloImpl implements ISayHello{
 	}
 
 	@Override
+	public String echo(String speak) {
+		return "I am receive you talk:"+speak;
+	}
+
+	@Override
 	public Integer helloInt() {
 		return 100;
 	}
